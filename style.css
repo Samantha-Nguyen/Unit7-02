@@ -1,0 +1,24 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+}
+
+#body {
+  background-color: #732626;
+}
+
+#input {
+  color: #260d0d;
+}
+
+#button {
+  border: none;
+  padding: 4px;
+  background-color: #260d0d;
+  transition-duration: 0.2s;
+}
+
+#button:hover {
+  background-color: #fff;
+  color: #260d0d;
+}
