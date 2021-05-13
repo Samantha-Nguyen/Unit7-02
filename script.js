@@ -10,10 +10,10 @@ function calculate () {
 
   // looks if userInput is positive or negative
   if (userInput >= 0) {
-    document.getElementById('answer').innerHTML = 'This integer is positive'
+    document.getElementById('answer').innerHTML = 'This is a positive integer.'
   } else if (userInput <= 0) {
-    document.getElementById('answer').innerHTML = 'This integer is negative'
+    document.getElementById('answer').innerHTML = 'This is a negative integer.'
   } else {
-    document.getElementById('answer').innerHTML = 'Please enter a valid integer'
+    document.getElementById('answer').innerHTML = 'Please enter a valid integer.'
   }
 }
